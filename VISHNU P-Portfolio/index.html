@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="" width=device-width, initial-scale=1.0>
+    <title>VISHNU P - Full Stack Developer</title>
+    <link rel="icon" type="image/x-icon" href="images/pic-logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./footer.css">
+
+</head>
+
+<body>
+    
+    <div id="preloader"></div>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <!--================Navbar====================-->
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <ul>
+                        <li><a href="index.html">Home</li></a>
+                        <li><a href="intro.html">About Me</li></a>
+                        <li><a href="services.html">My Interests</li></a>
+                        <li><a href="https://drive.google.com/file/d/1YupyiiurEOA0TevSwy-vXfpNhnVPW4cj/view?usp=share_link" target="_blank">Resume</a></li></a>
+                        <li><a href="blog.html">Projects</li></a>
+                        <li><a href="contact.html">Contact Me</li></a>
+                        <li><a href="linktree.html">Links</li></a>
+                    </ul>
+            </nav>
+        </div>
+        <!--================Main========================-->
+        <div class="main" id="main">
+            <button class="openbtn" onclick="toggleNav()">
+                <i class="fas fa-bars" id="hamburger"></i>
+            </button>
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi There👋,</div>
+                    <div class="name">I'm <i>VISHNU P</i></div>
+                    <div class="about">
+                        <h1 style="margin: auto; width: 50vw; ">I'm a <span class="auto-type"></span></h1>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                    <script>
+                        var typed=new Typed(".auto-type",{
+                            strings:["Full Stack Developer","Web Developer","Coder","Computer Science Engineer"],
+                            typeSpeed:150,
+                            backSpeed:150,
+                            loop:true
+                        })
+                    </script>   
+                    
+                    <div class="moreabout">I am a Web Developer and Also an Coder, <br> I Live in Salem.
+                    </div>
+
+                    <div class="buttons">
+                        <a href="https://drive.google.com/file/d/1YupyiiurEOA0TevSwy-vXfpNhnVPW4cj/view?usp=share_link" target="_blank"> <button class="btn">Download
+                                Resume</button></a>
+                        <a href="contact.html"> <button class="btn">Contact Me</button></a>
+
+                        <div class="icon-socials">
+                            <a href="https://www.linkedin.com/in/vishnu-palanisamy-a88286201/"
+                                class="fab fa-linkedin" target="_blank"></a>
+                            <a href="https://www.instagram.com/vishnu_5023/" class="fab fa-instagram" target="_blank"></a>
+                            <a href="https://www.facebook.com/vishnu.palanisamy.351" class="fab fa-facebook" target="_blank"></a>
+                            <a href="https://twitter.com/vishnupcse" class="fab fa-twitter" target="_blank"></a>
+                            <a href="https://github.com/Vishnu6056" class="fab fa-github" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="devPic">
+                    <img src="images/pic-logo.jpg" alt="VISHNU P" style="width:200px">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <img src="images/btn-LB.png" alt="o" height="30px" onclick="toggleDarkMode()">
+    </div>
+
+    <!--================Footer====================-->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer1">
+                <div class="footer-heading">
+                    About Me
+                </div>
+                <p>
+                    Hey, My Name is Vishnu Palanisamy, Currently I am Pursuing My 3rd Year of UG (B.E) from BIT College
+                    affliated to Anna University. I am a Full Stack Developer and I am Also a Web Developer as well as
+                    Coder.
+
+                </p>
+            </div>
+            <div class="footer2">
+                <div class="footer-heading">
+                    Social Media Handles
+                </div>
+                <div class="social-media-icons">
+                    <a href="https://www.facebook.com/vishnu.palanisamy.351" class="social-footer-icon facebook-icon"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/vishnu_5023/" class="social-footer-icon instagram-icon"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/vishnupcse" class="social-footer-icon twitter-icon"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/vishnu-palanisamy-a88286201/"
+                        class="social-footer-icon linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Vishnu6056" class="github-footer-icon github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer4">
+                <div class="footer-heading">
+                    Quick Links
+                </div>
+                <div>
+                    <ul class="footer-link-ul">
+                        <li class="footer-link-li"><a href="services.html">Interests</li></a>
+                        <li class="footer-link-li">|</li>
+
+                        <li class="footer-link-li"><a href="blog.html">Projects</li></a>
+                        <li class="footer-link-li">|</li>
+                        <li class="footer-link-li"><a href="contact.html">Contact Me</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>&#xa9; @Copyright 2023 - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+    <footer class="footer">
+        <p><span>Author</span>: VISHNU P</p>
+        <p><span>Email: </span><a href="vishnu.cs20@bitsathy.ac.in">vishnu.cs20@bitsathy.ac.in</a></p>
+    </footer>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none"
+        }) 
+    </script>
+
+</body>
+
+</html>

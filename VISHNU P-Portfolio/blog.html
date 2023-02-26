@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - VISHNU P - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/x-icon" href="images/pic-logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
+
+</head>
+
+<body>
+    <div class="container">   
+
+        <div class="sidebar">
+            <!--================Navbar====================-->
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <ul id="sidebar_link">
+                        <li><a href="index.html">Home</li></a>
+                        <li><a href="intro.html">My Intro</li></a>
+                        <li><a href="services.html">Services</li></a>
+                        <li><a href="images/Shaikh Minhaj Resume.pdf" target="_blank">Resume</a></li></a>
+                        <li><a href="blog.html">Blog</li></a>
+                        <li><a href="contact.html">Contact Me</li></a>
+                        <li><a href="linktree.html">Links</li></a>
+                    </ul>
+            </nav>
+        </div>
+        <!--==================Main========================-->
+        <div class="main" id="main">
+          
+            <button class="openbtn" onclick="toggleNav()">
+                <i class="fas fa-bars" id="hamburger"></i>
+            </button>
+            <div class="blogcontainer" id="is_blog_container">
+                <h1>Projects by VISHNU P - Full Stack Developer</h1>
+                <div class="blogItem">
+                    <h2>College ERP System</h2>
+                    <p>A college management system built using Django framework. It is designed for interactions between students and teachers. Features include attendance, marks and time table</p>
+                    <a href="https://github.com/Vishnu6056?tab=repositories">To Refer : Click This Link</a>
+                </div>
+
+                <div class="blogItem">
+                    <h2>Medical Care  Management Sytem</h2>
+                    <p>Health care management system is a web application developed for hospitals to manage staff data and patients data effectively. the main aim of developing “HEALTH CARE MANAGEMENT SYSTEM” is to computerize the Front Office Management of Hospital.</p>
+                    <a href="https://github.com/Vishnu6056?tab=repositories">To Refer : Click This Link</a>
+                </div>
+
+                <div class="blogItem">
+
+                    <h2>Retrieval of API Data with User Validation</h2>
+                    <p>The most common way to accomplish this, is to make one endpoint that will authorize with your username and password, then send you an authorization token. Then, once that token is received, you simply include the token in each request. I've seen the token used both ways; via headers and via the url. </p>
+                    <a href="https://github.com/Vishnu6056?tab=repositories">To Refer : Click This Link</a>
+                </div>
+
+                <div class="blogItem">
+
+                    <h2>Expense Tracker</h2>
+                    <p> Daily Expense Tracker System is designed to keep a track of Income-Expense of an organisation on a day-to-day
+                        basis. This System divides the Income based on daily expenses. If exceed day’s expense, system will calculate income
+                        and will provide new daily expense allowed amount.</p>
+                    <a href="https://github.com/Vishnu6056?tab=repositories">To Refer : Click This Link</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="images/btn-LB.png" alt="o" height="30px" onclick="myFunction()">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
